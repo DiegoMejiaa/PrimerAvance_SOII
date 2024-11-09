@@ -12,8 +12,8 @@
 ## Realizar las operaciones para acceder a las paginas
 
 Cada vez que el usuario elija acceso, se pedirá lo siguiente:
-- Número de página virtual: Este es el identificador de la página a la que quieres acceder. Por ejemplo, puedes ingresar 1 para la página número 1.
-- Escribir o leer: El programa preguntará si es una operación de escritura o lectura. Si eliges "si", se tratará de una escritura; si eliges "no", será una lectura.
+- Número de página virtual: Este es el identificador de la página a la que se quiere acceder. Por ejemplo, ingresar 1 para la página número 1.
+- Escribir o leer: El programa preguntará si es una operación de escritura o lectura. Si se elige "si", se tratará de una escritura; si eliges "no", será una lectura.
 
   ## Funcionamiento Interno
 - El programa verificará si la página solicitada ya está en la memoria.
