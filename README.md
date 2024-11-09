@@ -7,7 +7,7 @@
 - Tamaño de la memoria física: Este es el tamaño total de la memoria que el sistema va a simular. Lo puedes ingresar como un número entero, por ejemplo, 100 para indicar que la memoria tiene 100 unidades de espacio.
 - Tipo de particionamiento: Aquí debes decidir si deseas usar particionamiento fijo o dinámico.
 - Fijo: La memoria se dividirá en un número fijo de particiones de igual tamaño.
--Dinámico: La memoria se asignará de manera dinámica, agregando páginas en la memoria hasta que esté llena.
+- Dinámico: La memoria se asignará de manera dinámica, agregando páginas en la memoria hasta que esté llena.
 
 ## Realizar las operaciones para acceder a las paginas
 
