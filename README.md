@@ -1,4 +1,4 @@
-#Proyecto de Simulador de Gestión de Memoria
+#Proyecto
 
 Descripción
 Este proyecto es un simulador de gestión de memoria desarrollado en C# utilizando Windows Forms. El simulador permite visualizar y experimentar con diferentes técnicas de gestión de memoria empleadas en sistemas operativos. Las técnicas implementadas incluyen particionamiento fijo, particionamiento dinámico, memoria virtual, segmentación y paginación.
