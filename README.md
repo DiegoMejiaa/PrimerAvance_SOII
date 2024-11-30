@@ -25,9 +25,6 @@ simplemente devuelve la dirección física correspondiente.
 
 ## Proceso Final
 
-Cuando se finalicen las operaciones de acceso a páginas, se escribe "fin" para
-terminar el programa y mostrará el número total de fallos de página.
-
 Simulador de Gestión de Memoria en C#
 Este proyecto es un simulador de gestión de memoria desarrollado en C# con Windows Forms. El simulador permite visualizar y experimentar con diferentes técnicas de gestión de memoria utilizadas en sistemas operativos, tales como particionamiento fijo, particionamiento dinámico, memoria virtual, segmentación y paginación.
 
