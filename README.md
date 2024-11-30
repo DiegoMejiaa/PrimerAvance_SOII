@@ -36,9 +36,9 @@ Este proyecto es un **simulador de gestión de memoria** desarrollado en **C#** 
 2. Iniciar el Programa
 Para ejecutar el programa, sigue estos pasos:
 
-Abrir el Proyecto en Visual Studio:
+##Abrir el Proyecto en Visual Studio:
 
-Abre Visual Studio y carga el archivo Proyecto_SOII.sln (el archivo de solución).
+##Abre Visual Studio y carga el archivo Proyecto_SOII.sln (el archivo de solución).
 Compilar y Ejecutar:
 
 Haz clic en el botón de "Iniciar" (el ícono verde) en Visual Studio o presiona F5 para compilar y ejecutar el programa.
@@ -55,7 +55,7 @@ Selecciona una opción usando los botones disponibles en la interfaz.
 3. Ingreso de Parámetros
 El programa solicitará que ingreses los siguientes parámetros:
 
-Tamaño de la Memoria Física:
+##Tamaño de la Memoria Física:
 
 El programa te pedirá ingresar el tamaño total de la memoria que el sistema va a simular. Por ejemplo, si ingresas 100, la memoria tendrá 100 unidades de espacio.
 Tipo de Particionamiento:
@@ -63,12 +63,15 @@ Tipo de Particionamiento:
 Elige entre particionamiento fijo o dinámico según la opción seleccionada al iniciar el programa.
 Fijo: La memoria se dividirá en un número fijo de particiones de igual tamaño.
 Dinámico: La memoria se asignará de manera dinámica hasta llenarse.
-4. Acceso a las Páginas
+
+##4. Acceso a las Páginas
 Cuando el usuario elija realizar una operación de acceso a las páginas, el programa pedirá:
 
 Número de Página Virtual: El identificador de la página que se desea acceder (por ejemplo, ingresar 1 para la página número 1).
 Operación de Escritura o Lectura: El programa preguntará si la operación es de escritura o lectura. Responde "sí" para escribir o "no" para leer.
-5. Funcionamiento Interno
+
+##5. Funcionamiento Interno
+
 El sistema verifica si la página solicitada ya está en memoria.
 Si la página no está en memoria, se produce un fallo de página, lo que significa que la página debe cargarse en la memoria, aumentando el contador de fallos de página.
 Si la página ya está en memoria, el sistema simplemente devuelve la dirección física correspondiente sin generar un fallo de página.
