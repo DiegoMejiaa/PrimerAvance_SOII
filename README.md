@@ -23,26 +23,32 @@ Implementa la paginación de memoria, donde la memoria se divide en páginas fij
 Permite la visualización de la asignación de páginas a procesos.
 Soporta la navegación entre las páginas para observar cómo se distribuyen los procesos en la memoria.
 Instrucciones de Uso
-Iniciar el Programa:
+1. Iniciar el Programa:
+Al ejecutar el programa, el usuario verá 5 opciones de gestión de memoria en la interfaz principal:
 
-Al ejecutar el programa, se le pedirá al usuario ingresar:
-Tamaño de la memoria física: Este es el tamaño total de la memoria que el sistema va a simular. Por ejemplo, si se ingresa 100, significa que la memoria tiene 100 unidades de espacio.
-Tipo de particionamiento: El usuario podrá elegir entre particionamiento fijo o dinámico.
-Fijo: La memoria se divide en un número fijo de particiones de igual tamaño.
-Dinámico: La memoria se asigna de manera dinámica, agregando páginas en la memoria hasta que se llene.
-Acceder a las Páginas:
+Fijo: Particionamiento de memoria fijo.
+Dinámico: Particionamiento de memoria dinámico.
+Segmentación: Gestión de memoria basada en segmentos lógicos.
+Memoria Virtual: Simulación de memoria virtual.
+Paginación: Gestión de memoria basada en páginas.
+Al seleccionar una de las opciones, el sistema guiará al usuario a través del proceso de simulación correspondiente.
 
-Cuando se elija acceder a las páginas, el sistema pedirá:
-Número de página virtual: Identificador de la página a la que se quiere acceder (por ejemplo, ingresar 1 para la página número 1).
-Escribir o Leer: El usuario debe indicar si se trata de una operación de escritura o lectura.
-Funcionamiento Interno:
+2. Tamaño de la Memoria Física:
+El programa solicitará ingresar el tamaño total de la memoria que el sistema va a simular. Por ejemplo, si se ingresa 100, la memoria tendrá 100 unidades de espacio.
 
+3. Tipo de Particionamiento:
+Dependiendo de la opción seleccionada (fijo, dinámico, segmentación, memoria virtual, paginación), el sistema se comportará de acuerdo a la técnica de gestión de memoria elegida.
+
+4. Acceso a las Páginas:
+Cuando el usuario elija acceder a las páginas, se le pedirá:
+
+Número de página virtual: El identificador de la página que se desea acceder (por ejemplo, página 1).
+Escribir o Leer: El usuario indicará si se trata de una operación de escritura o lectura.
+5. Funcionamiento Interno:
 El sistema verifica si la página solicitada ya está en memoria.
-Si la página no está en memoria, se produce un fallo de página, lo que significa que la página debe cargarse en la memoria, aumentando el contador de fallos de página.
-Si la página ya está en memoria, no se produce un fallo de página y el sistema devuelve la dirección física correspondiente.
-Proceso Final:
+Si la página no está en memoria, se produce un fallo de página, lo que implica que la página debe cargarse en la memoria, aumentando el contador de fallos de página.
+Si la página ya está en memoria, el sistema simplemente devuelve la dirección física correspondiente sin generar un fallo de página.
 
-Una vez que se hayan completado las operaciones de acceso a las páginas, el usuario puede escribir "fin" para terminar el programa y el sistema mostrará el número total de fallos de página ocurridos durante la ejecución.
 Tecnologías Utilizadas
 Lenguaje: C#
 Framework: .NET Framework
