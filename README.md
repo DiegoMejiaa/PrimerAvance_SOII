@@ -1,4 +1,4 @@
-# Proyecto_SOII
+#Proyecto de Simulador de Gestión de Memoria
 Descripción
 Este proyecto es un simulador de gestión de memoria desarrollado en C# utilizando Windows Forms. El simulador permite visualizar y experimentar con diferentes técnicas de gestión de memoria empleadas en sistemas operativos. Las técnicas implementadas incluyen particionamiento fijo, particionamiento dinámico, memoria virtual, segmentación y paginación.
 
@@ -22,31 +22,45 @@ Visualiza el estado de los segmentos, indicándolos como disponibles u ocupados.
 Implementa la paginación de memoria, donde la memoria se divide en páginas fijas.
 Permite la visualización de la asignación de páginas a procesos.
 Soporta la navegación entre las páginas para observar cómo se distribuyen los procesos en la memoria.
-Instrucciones de Uso
-1. Iniciar el Programa:
-Al ejecutar el programa, el usuario verá 5 opciones de gestión de memoria en la interfaz principal:
 
+2. Iniciar el Programa
+Para ejecutar el programa, sigue estos pasos:
+
+Abrir el Proyecto en Visual Studio:
+
+Abre Visual Studio y carga el archivo Proyecto_SOII.sln (el archivo de solución).
+Compilar y Ejecutar:
+
+Haz clic en el botón de "Iniciar" (el ícono verde) en Visual Studio o presiona F5 para compilar y ejecutar el programa.
+Seleccionar el Tipo de Gestión de Memoria:
+
+Al ejecutar el programa, se te presentarán 5 opciones para gestionar la memoria:
 Fijo: Particionamiento de memoria fijo.
 Dinámico: Particionamiento de memoria dinámico.
 Segmentación: Gestión de memoria basada en segmentos lógicos.
 Memoria Virtual: Simulación de memoria virtual.
 Paginación: Gestión de memoria basada en páginas.
-Al seleccionar una de las opciones, el sistema guiará al usuario a través del proceso de simulación correspondiente.
+Selecciona una opción usando los botones disponibles en la interfaz.
 
-2. Tamaño de la Memoria Física:
-El programa solicitará ingresar el tamaño total de la memoria que el sistema va a simular. Por ejemplo, si se ingresa 100, la memoria tendrá 100 unidades de espacio.
+3. Ingreso de Parámetros
+El programa solicitará que ingreses los siguientes parámetros:
 
-3. Tipo de Particionamiento:
-Dependiendo de la opción seleccionada (fijo, dinámico, segmentación, memoria virtual, paginación), el sistema se comportará de acuerdo a la técnica de gestión de memoria elegida.
+Tamaño de la Memoria Física:
 
-4. Acceso a las Páginas:
-Cuando el usuario elija acceder a las páginas, se le pedirá:
+El programa te pedirá ingresar el tamaño total de la memoria que el sistema va a simular. Por ejemplo, si ingresas 100, la memoria tendrá 100 unidades de espacio.
+Tipo de Particionamiento:
 
-Número de página virtual: El identificador de la página que se desea acceder (por ejemplo, página 1).
-Escribir o Leer: El usuario indicará si se trata de una operación de escritura o lectura.
-5. Funcionamiento Interno:
+Elige entre particionamiento fijo o dinámico según la opción seleccionada al iniciar el programa.
+Fijo: La memoria se dividirá en un número fijo de particiones de igual tamaño.
+Dinámico: La memoria se asignará de manera dinámica hasta llenarse.
+4. Acceso a las Páginas
+Cuando el usuario elija realizar una operación de acceso a las páginas, el programa pedirá:
+
+Número de Página Virtual: El identificador de la página que se desea acceder (por ejemplo, ingresar 1 para la página número 1).
+Operación de Escritura o Lectura: El programa preguntará si la operación es de escritura o lectura. Responde "sí" para escribir o "no" para leer.
+5. Funcionamiento Interno
 El sistema verifica si la página solicitada ya está en memoria.
-Si la página no está en memoria, se produce un fallo de página, lo que implica que la página debe cargarse en la memoria, aumentando el contador de fallos de página.
+Si la página no está en memoria, se produce un fallo de página, lo que significa que la página debe cargarse en la memoria, aumentando el contador de fallos de página.
 Si la página ya está en memoria, el sistema simplemente devuelve la dirección física correspondiente sin generar un fallo de página.
 
 Tecnologías Utilizadas
