@@ -38,7 +38,7 @@ Para ejecutar el programa, sigue estos pasos:
 
 ## Abrir el Proyecto en Visual Studio:
 
-## Abre Visual Studio y carga el archivo Proyecto_SOII.sln (el archivo de solución).
+Abre Visual Studio y carga el archivo Proyecto_SOII.sln (el archivo de solución).
 Compilar y Ejecutar:
 
 Haz clic en el botón de "Iniciar" (el ícono verde) en Visual Studio o presiona F5 para compilar y ejecutar el programa.
