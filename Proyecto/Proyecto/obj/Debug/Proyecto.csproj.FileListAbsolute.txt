@@ -1,0 +1,45 @@
+C:\Users\Diego\Documents\UNAH\SISTEMAS OPERATIVOS 2\Proyecto\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\Diego\Documents\UNAH\SISTEMAS OPERATIVOS 2\Proyecto\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\Diego\Documents\UNAH\SISTEMAS OPERATIVOS 2\Proyecto\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\Diego\Documents\UNAH\SISTEMAS OPERATIVOS 2\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\Diego\Documents\UNAH\SISTEMAS OPERATIVOS 2\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.Form1.resources
+C:\Users\Diego\Documents\UNAH\SISTEMAS OPERATIVOS 2\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\Diego\Documents\UNAH\SISTEMAS OPERATIVOS 2\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\Diego\Documents\UNAH\SISTEMAS OPERATIVOS 2\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Documents\UNAH\SISTEMAS OPERATIVOS 2\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\Diego\Documents\UNAH\SISTEMAS OPERATIVOS 2\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\Diego\Documents\UNAH\SISTEMAS OPERATIVOS 2\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.FormParticionFija.resources
+C:\Users\Diego\Documents\UNAH\SISTEMAS OPERATIVOS 2\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.FormParticionDinamica.resources
+C:\Users\Diego\Documents\UNAH\SISTEMAS OPERATIVOS 2\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.FormPaginacion.resources
+C:\Users\Diego\Documents\UNAH\SISTEMAS OPERATIVOS 2\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.FormSegmentacion.resources
+C:\Users\Diego\Documents\UNAH\SISTEMAS OPERATIVOS 2\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.FormMemoriaVirtual.resources
+C:\Users\esten\Desktop\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\esten\Desktop\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\esten\Desktop\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\esten\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.csprojAssemblyReference.cache
+C:\Users\esten\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form1.resources
+C:\Users\esten\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.FormMemoriaVirtual.resources
+C:\Users\esten\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.FormPaginacion.resources
+C:\Users\esten\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.FormParticionDinamica.resources
+C:\Users\esten\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.FormParticionFija.resources
+C:\Users\esten\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.FormSegmentacion.resources
+C:\Users\esten\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\esten\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\esten\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\esten\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\esten\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\DELL\source\repos\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\DELL\source\repos\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\DELL\source\repos\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\DELL\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.Form1.resources
+C:\Users\DELL\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.FormMemoriaVirtual.resources
+C:\Users\DELL\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.FormPaginacion.resources
+C:\Users\DELL\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.FormParticionDinamica.resources
+C:\Users\DELL\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.FormParticionFija.resources
+C:\Users\DELL\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.FormSegmentacion.resources
+C:\Users\DELL\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\DELL\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\DELL\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\DELL\source\repos\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
