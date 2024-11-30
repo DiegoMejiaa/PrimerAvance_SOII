@@ -1,28 +1,37 @@
-#Proyecto
+# Proyecto de Simulador de Gestión de Memoria
 
-Descripción
-Este proyecto es un simulador de gestión de memoria desarrollado en C# utilizando Windows Forms. El simulador permite visualizar y experimentar con diferentes técnicas de gestión de memoria empleadas en sistemas operativos. Las técnicas implementadas incluyen particionamiento fijo, particionamiento dinámico, memoria virtual, segmentación y paginación.
+## Descripción
 
-Funcionalidades
-1. Particionamiento Fijo
-Simula la asignación de procesos a particiones de tamaño fijo.
-Permite definir particiones con tamaños específicos y asignarles procesos de tamaños determinados.
-Muestra el estado de las particiones (ocupadas o libres) y el espacio restante en cada partición.
-2. Particionamiento Dinámico
-Simula el particionamiento dinámico, donde las particiones se asignan de manera flexible según el tamaño de los procesos.
-El sistema verifica la disponibilidad de memoria antes de asignar cada proceso.
-Visualiza el estado de la memoria dinámica, mostrando bloques libres y ocupados.
-3. Memoria Virtual
-Simula la gestión de memoria virtual, permitiendo la visualización de cómo se manejan las páginas de memoria y cómo se asignan procesos a la memoria virtual disponible.
-El sistema simula la carga de procesos y la visualización de la memoria disponible en un entorno virtual.
-4. Segmentación
-Implementa la segmentación, donde la memoria se divide en segmentos lógicos (por ejemplo, código, datos, pila).
-Los segmentos pueden ser de diferentes tamaños, y el sistema asigna espacio de acuerdo con las necesidades de los procesos.
-Visualiza el estado de los segmentos, indicándolos como disponibles u ocupados.
-5. Paginación
-Implementa la paginación de memoria, donde la memoria se divide en páginas fijas.
-Permite la visualización de la asignación de páginas a procesos.
-Soporta la navegación entre las páginas para observar cómo se distribuyen los procesos en la memoria.
+Este proyecto es un **simulador de gestión de memoria** desarrollado en **C#** utilizando **Windows Forms**. El simulador permite visualizar y experimentar con diferentes técnicas de gestión de memoria empleadas en sistemas operativos. Las técnicas implementadas incluyen **particionamiento fijo**, **particionamiento dinámico**, **memoria virtual**, **segmentación** y **paginación**.
+
+---
+
+## Funcionalidades
+
+### 1. **Particionamiento Fijo**
+- Simula la asignación de procesos a particiones de **tamaño fijo**.
+- Permite definir particiones con tamaños específicos y asignarles procesos de tamaños determinados.
+- Muestra el estado de las particiones (ocupadas o libres) y el espacio restante en cada partición.
+
+### 2. **Particionamiento Dinámico**
+- Simula el **particionamiento dinámico**, donde las particiones se asignan de manera flexible según el tamaño de los procesos.
+- El sistema verifica la disponibilidad de memoria antes de asignar cada proceso.
+- Visualiza el estado de la memoria dinámica, mostrando bloques libres y ocupados.
+
+### 3. **Memoria Virtual**
+- Simula la gestión de **memoria virtual**, permitiendo la visualización de cómo se manejan las páginas de memoria y cómo se asignan procesos a la memoria virtual disponible.
+- El sistema simula la carga de procesos y la visualización de la memoria disponible en un entorno virtual.
+
+### 4. **Segmentación**
+- Implementa la **segmentación**, donde la memoria se divide en segmentos lógicos (por ejemplo, código, datos, pila).
+- Los segmentos pueden ser de diferentes tamaños, y el sistema asigna espacio de acuerdo con las necesidades de los procesos.
+- Visualiza el estado de los segmentos, indicándolos como disponibles u ocupados.
+
+### 5. **Paginación**
+- Implementa la **paginación** de memoria, donde la memoria se divide en páginas fijas.
+- Permite la visualización de la asignación de páginas a procesos.
+- Soporta la navegación entre las páginas para observar cómo se distribuyen los procesos en la memoria.
+
 
 2. Iniciar el Programa
 Para ejecutar el programa, sigue estos pasos:
