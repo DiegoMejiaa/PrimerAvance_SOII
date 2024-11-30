@@ -28,30 +28,30 @@ simplemente devuelve la dirección física correspondiente.
 Cuando se finalicen las operaciones de acceso a páginas, se escribe "fin" para
 terminar el programa y mostrará el número total de fallos de página.
 
-##Simulador de Gestión de Memoria en C#
+Simulador de Gestión de Memoria en C#
 Este proyecto es un simulador de gestión de memoria desarrollado en C# con Windows Forms. El simulador permite visualizar y experimentar con diferentes técnicas de gestión de memoria utilizadas en sistemas operativos, tales como particionamiento fijo, particionamiento dinámico, memoria virtual, segmentación y paginación.
 
-##Funcionalidades
-###1. Particionamiento Fijo
+Funcionalidades
+1. Particionamiento Fijo
 Simula la asignación de procesos a particiones de tamaño fijo.
 Se pueden definir particiones con tamaños específicos y asignarles procesos de tamaños determinados.
 Muestra el estado de las particiones (ocupadas o libres) y el espacio restante.
-###2. Particionamiento Dinámico
+2. Particionamiento Dinámico
 Simula el particionamiento dinámico donde las particiones se asignan de manera flexible según el tamaño de los procesos.
 El sistema verifica la disponibilidad de memoria para cada proceso antes de asignarlo.
 Visualiza el estado de la memoria dinámica, mostrando bloques libres y ocupados.
-###3. Memoria Virtual
+3. Memoria Virtual
 Simula la gestión de memoria virtual, permitiendo la visualización de cómo se manejan las páginas de memoria y cómo se asignan procesos a la memoria virtual disponible.
 El sistema simula la carga de procesos y la visualización de la memoria disponible en un entorno virtual.
-###4. Segmentación
+4. Segmentación
 Implementa la segmentación, donde la memoria se divide en segmentos lógicos (por ejemplo, código, datos, pila).
 Los segmentos pueden ser de diferentes tamaños, y el sistema asigna espacio de acuerdo con las necesidades de los procesos.
 Visualiza el estado de los segmentos, indicándolos como disponibles u ocupados.
-###5. Paginación
+5. Paginación
 Implementa paginación de memoria, donde la memoria se divide en páginas fijas.
 Permite la visualización de la asignación de páginas a procesos.
 Soporta navegación entre las páginas para ver cómo se distribuyen los procesos en la memoria.
-##Tecnologías Utilizadas
+Tecnologías Utilizadas
 Lenguaje: C#
 Framework: .NET Framework
 Entorno de Desarrollo: Visual Studio
